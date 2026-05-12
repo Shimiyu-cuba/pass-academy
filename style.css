@@ -441,6 +441,39 @@ footer .section-buttom {
     padding: 40px 20px;
 }
 
+
+.sns p {
+    text-align: center;
+}
+
+.sns-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sns-links a {
+    color: #ffffff;
+    font-size: 28px;
+    transition: 0.3s;
+}
+
+.sns-links img {
+    transform: translateY(3px);
+}
+
+
+.sns-links a:hover {
+    /* color: #4A6CF7; */
+    transform: translateY(-3px);
+}
+
+.sidebar .sns-links a {
+    color: black;
+}
+
 @media (max-width: 768px) {
 
     body {
